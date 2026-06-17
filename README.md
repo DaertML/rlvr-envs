@@ -5,6 +5,8 @@ Environments to generate RLVR data easily
 Run the scripts in the envs folder to generate synthetic RLVR (Reinforcement Learning from Verifiable Rewards) datasets.
 
 These are the environments:
+
+
 🚢 Battleship Deductive Puzzle
 - What it does: Generates a hidden grid containing ship structures and tracks past firing logs (hit or miss).
 - The Logic Challenge: Instead of random guessing, the model uses grouped coordinate feedback and process-of-elimination steps to determine the exact state of a targeted, unrevealed cell.
